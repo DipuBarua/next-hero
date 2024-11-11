@@ -3,7 +3,7 @@ import React from 'react';
 
 const BlogsPage = () => {
     return (
-        <div>
+        <div className=' grid grid-cols-3 gap-4'>
             {
                 blogs.map(blog => <div
                     key={blog.slug}
